@@ -1,0 +1,1 @@
+"Neste projeto, apliquei a regra de que vendas para Comércio sem CNPJ preenchido devem ser marcadas como 'PENDENTE', sinalizando para a equipe de CRM a necessidade de atualização cadastral. Também implementamos o '.clip(lower=1)' na quantidade, evitando que erros de sistema gerem vendas com quantidade zero ou negativa."

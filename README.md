@@ -103,5 +103,5 @@ python main.py
 **Pedro Stoppa** - Engenheiro de Dados | Python & Business Intelligence
 
 [![Linkedin](https://img.shields.io/badge/Linkedin-blue.svg)](https://www.linkedin.com/in/pedro-stoppa/)
-[![Email](https://img.shields.io/badge/Email-red.svg)](pedrostoppa.dev@gmail.com)
+[![Email](https://img.shields.io/badge/Email-red.svg)](mailto:pedrostoppa.dev@gmail.com?subject=Contato%20via%20GitHub%20-%20Pipeline%20de%20Dados)
 [![WhatsApp](https://img.shields.io/badge/Whatsapp-gred.svg)](https://wa.me/558694818921)

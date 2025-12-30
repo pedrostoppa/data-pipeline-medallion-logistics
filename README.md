@@ -1,22 +1,18 @@
-# 📊 Data Pipeline — Distribuidora de Água e Gás (ETL Profissional)
+# 📊 Data Pipeline — Distribuidora de Água e Gás (Arquitetura Medalhão)
 
 [![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Library-Pandas-150458.svg)](https://pandas.pydata.org/)
 [![Architecture](https://img.shields.io/badge/Architecture-Medallion-gold.svg)](#-arquitetura-do-projeto)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/seu-usuario/)
 
-Projeto completo de **ETL (Extract, Transform, Load)** simulando o contexto real de uma distribuidora de água e gás. Desenvolvido para consolidar conceitos de Engenharia de Dados, o pipeline processa dados brutos, aplica regras de negócio e gera bases analíticas prontas para consumo.
-
-
-
+Projeto de ETL automatizado que transforma dados brutos de logística em indicadores estratégicos de negócio.
 ---
 
-## 🎯 Objetivo do Projeto
-- **Simular um cenário real de negócio** (B2C e B2B).
-- **Aplicar boas práticas de ETL** com Python e Pandas.
-- **Gerar camadas de dados organizadas** (Bronze, Silver e Gold) seguindo a Arquitetura Medalhão.
-- **Servir como projeto âncora de portfólio** para demonstração de competências técnicas.
+## 🎯 Por que este projeto? (O Valor de Negócio)
 
+* **O Problema (A Dor):** Anteriormente, a consolidação de vendas era feita manualmente em planilhas, o que levava horas e gerava inconsistências nos relatórios mensais.
+* **A Solução (O Benefício Técnico):** Com este pipeline em Python, garantimos a **Idempotência** (sem dados duplicados) e a **Sanitização** (dados limpos e prontos para uso), reduzindo o tempo de processamento de minutos para segundos.
+* **O Resultado (O Valor):** A camada **Gold** fornece KPIs automáticos sobre a performance de marcas e produtos, permitindo que o gestor identifique em tempo real quais itens trazem maior faturamento e quais precisam de ações promocionais.
 ---
 
 ## 🏗️ Arquitetura e Governança
@@ -24,17 +20,16 @@ O projeto foi desenhado sob os princípios de **consistência e idempotência**.
 
 ### As Camadas:
 * **🥉 Bronze (Raw):** Dados brutos conforme extraídos da fonte.
-* **🥈 Silver (Trusted):** Dados limpos, tipados e padronizados.
-* **🥇 Gold (Refined):** Dados agregados em KPIs prontos para Dashboards.
+* **🥈 Silver (Trusted):** Dados limpos, tipados, padronizados e enriquecidos com regras de negócio.
+* **🥇 Gold (Refined):** Dados agregados em KPIs estratégicos prontos para Dashboards.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 - **Python 3.12+**
-- **Pandas & NumPy:** Processamento e lógica condicional.
-- **Git / GitHub:** Versionamento.
+- **Pandas & NumPy:** Processamento de dados e lógica condicional.
+- **Git / GitHub:** Versionamento e documentação.
 - **Modularização:** Scripts separados por responsabilidade (Extração, Transformação e Agregação).
-
 ---
 
 ## 🗂️ Estrutura do Projeto
